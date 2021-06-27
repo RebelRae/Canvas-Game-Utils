@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+    background-color: #222222;
+    font-family: 'Electrolize';
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    pointer-events: none;
+    background: none !important;
+}
